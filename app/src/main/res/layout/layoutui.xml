@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Enemy Section -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ENEMY"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/cxEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CX" />
+
+    <LinearLayout
+        android:id="@+id/cxButtonGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/cxButton1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="1" />
+        <Button android:id="@+id/cxButton2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="2" />
+        <Button android:id="@+id/cxButton3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="3" />
+        <Button android:id="@+id/cxButton4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="4" />
+        <Button android:id="@+id/cxButton5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="5" />
+        <Button android:id="@+id/cxButton6" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="6" />
+        <Button android:id="@+id/cxButton7" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="7" />
+        <Button android:id="@+id/cxButton8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="8" />
+    </LinearLayout>
+
+    <!-- Knife Section -->
+
+    <EditText
+        android:id="@+id/knifeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Knife" />
+
+    <LinearLayout
+        android:id="@+id/knifeButtonGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/knifeButton1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="1" />
+        <Button android:id="@+id/knifeButton2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="2" />
+        <Button android:id="@+id/knifeButton3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="3" />
+        <Button android:id="@+id/knifeButton4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="4" />
+        <Button android:id="@+id/knifeButton5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="5" />
+        <Button android:id="@+id/knifeButton6" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="6" />
+        <Button android:id="@+id/knifeButton7" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="7" />
+        <Button android:id="@+id/knifeButton8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="8" />
+    </LinearLayout>
+
+    <!-- Level Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/levelButton1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/levelButton2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/levelButton3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3" />
+    </LinearLayout>
+
+    <!-- HP Section -->
+
+
+    <EditText
+        android:id="@+id/hpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HP" />
+
+    <LinearLayout
+        android:id="@+id/hpButtonGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/hpButton1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="1" />
+        <Button android:id="@+id/hpButton2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="2" />
+        <Button android:id="@+id/hpButton3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="3" />
+        <Button android:id="@+id/hpButton4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="4" />
+        <Button android:id="@+id/hpButton5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="5" />
+        <Button android:id="@+id/hpButton6" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="6" />
+        <Button android:id="@+id/hpButton7" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="7" />
+    </LinearLayout>
+
+    <!-- Click Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Side"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/clickCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Clock" />
+
+    <!-- End Turn Button -->
+    <Button
+        android:id="@+id/endTurnButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="END TURN"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>
