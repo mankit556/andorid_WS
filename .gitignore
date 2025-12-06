@@ -13,3 +13,11 @@
 .externalNativeBuild
 .cxx
 local.properties
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+/gradle/libs.versions.toml
+/gradlew
+/gradlew.bat
+/app/proguard-rules.pro
+/app/src/androidTest/java/com/example/android_ws/ExampleInstrumentedTest.java
+/app/src/test/java/com/example/android_ws/ExampleUnitTest.java
