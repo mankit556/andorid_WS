@@ -26,9 +26,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layoutui);
 
-        cxEditText = findViewById(R.id.cxEditText);
-        knifeEditText = findViewById(R.id.knifeEditText);
-        hpEditText = findViewById(R.id.hpEditText);
         clickCheckBox = findViewById(R.id.clickCheckBox);
 
         setupButtonGroup("cxButton",8);

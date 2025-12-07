@@ -18,11 +18,11 @@
         android:text="ENEMY"
         android:textSize="18sp" />
 
-    <EditText
-        android:id="@+id/cxEditText"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="CX" />
+        android:hint="CX"
+        android:textSize="18sp" />
 
     <LinearLayout
         android:id="@+id/cxButtonGroup"
@@ -43,10 +43,10 @@
 
     <!-- Knife Section -->
 
-    <EditText
-        android:id="@+id/knifeEditText"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="18sp"
         android:hint="Knife" />
 
     <LinearLayout
@@ -105,10 +105,11 @@
     <!-- HP Section -->
 
 
-    <EditText
-        android:id="@+id/hpEditText"
+    <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="18sp"
         android:hint="HP" />
 
     <LinearLayout
