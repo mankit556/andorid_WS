@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText cxEditText;
     private EditText knifeEditText;
     private EditText hpEditText;
-    //private CHeckBox clickCheckBox;
+    private CheckBox clickCheckBox;
 
     private static final ConcurrentHashMap<String , Object> MEMORY_STORE = new ConcurrentHashMap<>();
     private final Map<String, Integer> selectedLevels = new HashMap<>();
@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         cxEditText = findViewById(R.id.cxEditText);
         knifeEditText = findViewById(R.id.knifeEditText);
         hpEditText = findViewById(R.id.hpEditText);
+        clickCheckBox = findViewById(R.id.clickCheckBox);
 
         setupButtonGroup("cxButton",8);
         setupButtonGroup("knifeButton",8);
@@ -39,6 +40,16 @@ public class MainActivity extends AppCompatActivity {
         setGroupLevel("knifeButton", 0, 8);
         setGroupLevel("hpButton", 0, 7);
         setGroupLevel("levelButton", 0, 3);
+
+        Button endTurnButton = findViewById(R.id.endTurnButton);
+        endTurnButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                if (clickCheckBox !=null){
+                    clickCheckBox.setChecked(false);
+                }
+            }
+        });
     }
 
     private void setupButtonGroup(final String baseIdName, final int count) {
