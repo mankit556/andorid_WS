@@ -8,12 +8,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import android.widget.CheckBox;
+
 
 public class MainActivity extends AppCompatActivity {
 
     private EditText cxEditText;
     private EditText knifeEditText;
     private EditText hpEditText;
+    //private CHeckBox clickCheckBox;
 
     private static final ConcurrentHashMap<String , Object> MEMORY_STORE = new ConcurrentHashMap<>();
     private final Map<String, Integer> selectedLevels = new HashMap<>();
